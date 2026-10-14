@@ -1,0 +1,35 @@
+{
+  "cleaning": {
+    "input_rows": 1776,
+    "exact_duplicate_rows_removed": 10,
+    "duplicate_transaction_ids_remaining": 0,
+    "rejected_rows": 0,
+    "invalid_date_rows": 0,
+    "invalid_amount_rows": 0,
+    "missing_essential_rows": 0,
+    "invalid_transaction_type_rows": 0,
+    "invalid_category_rows": 0,
+    "non_positive_amount_rows": 0,
+    "unexpected_currency_rows": 0,
+    "output_rows": 1766
+  },
+  "categorization": {
+    "accuracy": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0,
+    "train_size": 1324,
+    "test_size": 442,
+    "limitation": "Synthetic repeated merchant descriptions can make test metrics optimistic for unseen merchants."
+  },
+  "forecast": {
+    "supported": true,
+    "mae": 21468.853539568412,
+    "rmse": 25839.162388460903,
+    "baseline_mae": 32771.16,
+    "baseline_rmse": 37622.787720516535,
+    "next_month": "2026-07-01",
+    "next_month_forecast": 114681.79529434517,
+    "limitation": "Only 18 synthetic months are available, so this forecast is a baseline demonstration."
+  }
+}

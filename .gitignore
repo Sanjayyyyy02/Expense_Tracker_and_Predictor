@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+models/*.joblib
+data/processed/*.csv
+reports/*.csv
+.DS_Store
+Thumbs.db
+
